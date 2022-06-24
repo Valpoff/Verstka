@@ -1,0 +1,292 @@
+
+:root {
+    --color1: #24b4e6;
+    --color2: #7E8085;
+    --color3: #FFFFFF;
+    --color4: #24b6e625;
+    --color5: black;
+}
+
+.navbar-light {
+    background-color: var(--color4);
+}
+
+.container-fluid {
+    background-color: var(--color1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_head {
+    padding: 10px 0px 10px;
+}
+.btn-group {
+    padding: 10px 20px 10px 20px;
+}
+
+.btn-val {
+    display: block;
+    max-width: 600px;
+    padding: 8px 30px;
+    color: var(--color1);
+    background-color: var(--color3);
+}
+
+.img-val {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Наша история */
+
+.history, .features , .portfolio {
+    padding: 50px 40px;
+}
+
+.history {
+    background-color: var(--color1);
+}
+
+.square_row {
+    display: flex;
+    margin: 30px 20px;
+}
+
+.square1 , .square2 , .square3 , .square4 , .square5 , .square6 {
+    background-color: var(--color3);
+    min-width: 55px;
+    min-height: 55px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square1 , .square2 {
+    margin: 10px;
+}
+
+.square1:hover{
+    background-color: var(--color2);
+}
+
+.square2:hover{
+    background-color: var(--color2);
+}
+
+.chevron {
+    margin-left: 11px;
+    width: 24px;
+}
+
+button {
+    border: none;
+}
+
+/* Прокрутка */
+
+.item {
+    padding: 20px 0px 0px 0px;
+    min-width: 300px;
+    min-height: 300px;
+    max-width: 300px;
+    max-height: 300px;    
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+}
+
+.carousel-item2 {
+    max-width: 300px;
+    max-height: 300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;  
+}
+
+.carousel1 .carousel-indicators [data-bs-target] {
+    background-color: var(--color3);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 10px 10px 0px 10px;
+}
+
+.but_slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:nth-child(1) {
+    background-color: var(--color3);
+}
+
+.item:nth-child(2) {
+    background-color: var(--color3);
+}
+
+.item:nth-child(3) {
+    background-color: var(--color3);
+}
+
+.item:nth-child(4) {
+    background-color: var(--color3);
+}
+
+.item:nth-child(5) {
+    background-color: var(--color3);
+}
+
+.item:nth-child(6) {
+    background-color: var(--color3);
+}
+
+/* Features */
+
+.square3 {
+    min-width: 80px;
+    min-height: 80px;
+    width: 80px;
+    height: 80px;
+    background-color: var(--color1);
+}
+
+.card-text {
+    display: flex;
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+.body_features , .card-title {
+    display: flex;
+    justify-content: flex-start;
+}
+.body_features {
+    display: flex;
+    justify-content: center;
+    min-width: 280px;
+    min-height: 280px;
+}
+
+.filler {
+    padding: 24px 15px;
+}
+
+/* Портфолио */
+
+.portfolio {
+    background-color: var(--color1);
+}
+
+.portfolio1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    max-height: 400px;
+    margin: 20px 20px 20px 20px;
+}
+
+.portfolio3{
+    display: flex;
+    max-width: 375px;
+    max-height: 375px;
+}
+
+.btn-val-prof {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    border: none;
+    color: var(--color1);
+    background-color: var(--color3);
+}
+
+/* Testimonials */
+
+.testimonials_title {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 30px;
+}
+
+.text_test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials_text{
+    display: block;
+    width: 70%;
+    padding: 0px 0px 50px 0px;
+}
+
+.testimonials_button {
+    width: 50px;
+    height: 50px;
+    color: black;
+}
+
+.testimonials .carousel-indicators [data-bs-target] {
+    background-color: var(--color1);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 10px 10px 0px 10px;
+}
+
+/* Our Team */
+
+.team {
+    background-color: #24b4e6;
+    padding: 20px;
+}
+
+.our_team {
+    background-color: #fff;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+.white_list , .team_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team_img img {
+    display: flex;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+/* ЦВЕТ */
+
+.color1 {
+    color: var(--color1)
+}
+.color2 {
+    color: var(--color2)
+}
+.color3 {
+    color: var(--color3)
+}
+.color4 {
+    color: var(--color4)
+}
+.color5 {
+    color: var(--color5)
+}
