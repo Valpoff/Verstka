@@ -334,7 +334,7 @@ button {
 /* Maps */
 
 .imgmaps {
-    background: url(../maps\ \(convert.io\).webp) center / cover no-repeat;
+    background: url(../images/maps\ \(convert.io\).webp) center / cover no-repeat;
     display: flex;
     align-items: center;
 }
