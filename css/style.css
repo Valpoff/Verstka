@@ -19,6 +19,11 @@ body {
     --color5: black;
 }
 
+.carousel1 img{
+    width: 100%;
+    height: 100%;
+}
+
 .navbar-light {
     background-color: var(--color4);
     padding: 10px;
@@ -191,7 +196,8 @@ button {
 
 .portfolio3{
     display: flex;
-    width: 360px;
+    width: 100%;
+    height: 100%;
 }
 
 .btn-val-prof {
