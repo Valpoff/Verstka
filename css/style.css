@@ -191,8 +191,7 @@ button {
 
 .portfolio3{
     display: flex;
-    max-width: 360px;
-    max-height: 360px;
+    width: 360px;
 }
 
 .btn-val-prof {
@@ -293,8 +292,8 @@ button {
 
 .team_img img {
     display: flex;
-    max-width: 500px;
-    max-height: 500px;
+    width: 500px;
+    height: 500px;
 }
 
 /* Maps */
