@@ -23,20 +23,12 @@ body {
     padding: 10px;
 }
 
-.alert1 {
-    display: flex;
-    align-items: center;
-}
-
 input {
     border: none;
 }
 
 .head_but {
     background-color: var(--color1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .main_head {
@@ -70,15 +62,6 @@ input {
     background-color: var(--color1);
 }
 
-.car_display {
-    display: flex;
-}
-
-.square_row {
-    display: flex;
-    margin: 30px 20px;
-}
-
 .square1 , .square2 , .square3 , .square4 , .square5 , .square6 {
     background-color: var(--color3);
     min-width: 55px;
@@ -89,8 +72,14 @@ input {
     align-items: center;
 }
 
-.square1 , .square2 {
-    margin: 10px;
+.slick-arrow {
+    background-color: var(--color3);
+    min-width: 55px;
+    min-height: 55px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .square1:hover{
@@ -101,11 +90,6 @@ input {
     background-color: var(--color2);
 }
 
-.chevron {
-    margin-left: 11px;
-    width: 24px;
-}
-
 button {
     border: none;
 }
@@ -113,22 +97,15 @@ button {
 /* Прокрутка */
 
 .item {
-    padding: 20px 0px 0px 0px;
-    min-width: 300px;
-    min-height: 300px;
-    max-width: 300px;
-    max-height: 300px;    
+    margin: 20px;
+    padding-top: 20px;
+    min-width: 285px;
+    min-height: 285px;
+    max-width: 285px;
+    max-height: 285px;    
     text-align: center;
     justify-content: center;
     align-items: center; 
-}
-
-.carousel-item2 {
-    max-width: 300px;
-    max-height: 300px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;  
 }
 
 .carousel1 .carousel-indicators [data-bs-target] {
@@ -225,8 +202,8 @@ button {
 
 .portfolio3{
     display: flex;
-    max-width: 375px;
-    max-height: 375px;
+    max-width: 360px;
+    max-height: 360px;
 }
 
 .btn-val-prof {
@@ -346,10 +323,6 @@ button {
 }
 
 /* Footer */
-
-footer {
-    padding: 10px 0px;
-}
 
 /* ЦВЕТ */
 

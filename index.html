@@ -14,16 +14,16 @@
     <div class="container-fluid">
       <div class="row main_head">
         <div class="col-md-4 col-sm-12">
-          <h1 class="text-center">Сoncrete</h1>
+          <h1 class="text-center mt-2">Сoncrete</h1>
         </div>
         <nav class="col-md-4 col-sm-12 d-flex justify-content-center">
-          <div class="alert1">
+          <div class="d-flex p-2">
             <input class="navbar-light" type="search" placeholder="Search for items" aria-label="Search">
             <button class="btn" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" fill="#24b4e6" class="bi bi-search" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
             </svg></button>
           </div>
         </nav>
-        <div class="img-val col-md-4 col-sm-12">
+        <div class="img-val col-md-4 col-sm-12 p-2">
           <a class="img-val" href="#">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#24b4e6" class="bi bi-person-fill" viewBox="0 0 16 16"><path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
             </svg>
@@ -39,7 +39,7 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid head_but col-md-12">
+    <div class="container-fluid head_but d-flex color1 col-md-12 justify-content-center">
       <div class="btn-group-md" role="group" aria-label="Basic example">
         <button type="button" class="btn text-white text-uppercase">dresses</button>
         <button type="button" class="btn text-white text-uppercase">tops</button>
@@ -67,7 +67,7 @@
             <img src="images/devushka_skejt_doroga_164840_1920x1080.webp" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block but_slide">
               <h2>На этом первом слайде должен быть написан текст</h2>
-              <div class="d-grid gap-2 col-4 mx-auto">
+              <div class="d-grid col-4 mx-auto mb-5">
                 <button type="button" class="btn btn-light btn-lg btn-val">Button</button>
               </div>
             </div>
@@ -76,7 +76,7 @@
             <img src="images/devushka_volosy_nastroenie_145370_1920x1080 (convert.io).webp" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block but_slide">
               <h2>На этом втором слайде должен быть написан текст</h2>
-              <div class="d-grid gap-2 col-4 mx-auto">
+              <div class="d-grid gap-2 col-4 mx-auto mb-5">
                 <button type="button" class="btn btn-light btn-lg btn-val">Button</button>
               </div>
             </div>
@@ -85,7 +85,7 @@
             <img src="images/soldat_shlem_art_123765_1920x1080 (convert.io).webp" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block but_slide">
               <h2>На этом третьем слайде должен быть написан текст</h2>
-              <div class="d-grid gap-2 col-4 mx-auto">
+              <div class="d-grid gap-2 col-4 mx-auto mb-5">
                 <button type="button" class="btn btn-light btn-lg btn-val">Button</button>
               </div>
             </div>
@@ -103,6 +103,7 @@
             </svg>
           </span>
         </button>
+        
       </div>
     </section>
     
@@ -118,52 +119,52 @@
           </div>
         </div>
         <div>
-          <div class="square_row col-2">
-            <button type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev" class="square1">
+          <div class="square_row d-flex justify-content-center">
+            <button type="button" data-bs-target="#carouselExampleControl"  data-bs-slide="prev-slide" class="square1 m-4">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#24b4e6" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
               </svg>
             </button>
-            <button type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next" class="square2">
+            <button type="button" data-bs-target="#carouselExampleControl"  data-bs-slide="right" class="square2 m-4">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#24b4e6" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
               </svg>
             </button>
           </div>
-          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner" role="listbox">
-              <div class="carousel-item active carousel-item2 col-4" data-bs-ride="false">
+          <div id="carouselExampleControl" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner d-flex" role="listbox">
+              <div class="carousel-item-visible active">
                 <div class="item col-md-3">
-                  <h2 class="fw-bold color5 mb-5">1998</h2>
-                  <p class="color5 mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero laboriosam maiores eligendi hic quam, temporibus dolorem ipsa voluptates. Ut, reprehenderit.</p>
+                  <h2 class="fw-bold color5">1998</h2>
+                  <p class="color5 p-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero laboriosam maiores eligendi hic quam, temporibus dolorem ipsa voluptates. Ut, reprehenderit.</p>
                 </div>
               </div>
-              <div class="carousel-item carousel-item2" data-bs-ride="false">
+              <div class="carousel-item-visible">
                 <div class="item col-md-3">
-                  <h2 class="fw-bold color5 mb-5">2001</h2>
-                  <p class="color5 mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quae iusto commodi quas reprehenderit totam reiciendis delectus consequatur dolores, ipsa assumenda.</p>
+                  <h2 class="fw-bold color5">2001</h2>
+                  <p class="color5 p-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quae iusto commodi quas reprehenderit totam reiciendis delectus consequatur dolores, ipsa assumenda.</p>
                 </div>
               </div>
-              <div class="carousel-item carousel-item2 col-4"  data-bs-ride="false">
+              <div class="carousel-item-visible">
                 <div class="item col-md-3">
-                  <h2 class="fw-bold color5 mb-5">2005</h2>
-                  <p class="color5 mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quae iusto commodi quas reprehenderit totam reiciendis delectus consequatur dolores, ipsa assumenda.</p>
+                  <h2 class="fw-bold color5">2005</h2>
+                  <p class="color5 p-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quae iusto commodi quas reprehenderit totam reiciendis delectus consequatur dolores, ipsa assumenda.</p>
                 </div>
               </div>
-              <div class="carousel-item carousel-item2 col-4" data-bs-ride="false">
+              <div class="carousel-item-visible">
                 <div class="item col-md-3">
-                  <h2 class="fw-bold color5 mb-5">2010</h2>
-                  <p class="color5 mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero laboriosam maiores eligendi hic quam, temporibus dolorem ipsa voluptates. Ut, reprehenderit.</p>
+                  <h2 class="fw-bold color5">2010</h2>
+                  <p class="color5 p-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero laboriosam maiores eligendi hic quam, temporibus dolorem ipsa voluptates. Ut, reprehenderit.</p>
                 </div>
               </div>
-              <div class="carousel-item carousel-item2 col-4" data-bs-ride="false">
+              <div class="carousel-item-visible">
                 <div class="item col-md-3">
-                  <h2 class="fw-bold color5 mb-5">2014</h2>
-                  <p class="color5 mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero laboriosam maiores eligendi hic quam, temporibus dolorem ipsa voluptates. Ut, reprehenderit.</p>
+                  <h2 class="fw-bold color5">2014</h2>
+                  <p class="color5 p-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero laboriosam maiores eligendi hic quam, temporibus dolorem ipsa voluptates. Ut, reprehenderit.</p>
                 </div>
               </div>
-              <div class="carousel-item carousel-item2 col-4" data-bs-ride="false">
+              <div class="carousel-item-visible">
                 <div class="item col-md-3">
-                  <h2 class="fw-bold color5 mb-5">2018</h2>
-                  <p class="color5 mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero laboriosam maiores eligendi hic quam, temporibus dolorem ipsa voluptates. Ut, reprehenderit.</p>
+                  <h2 class="fw-bold color5 ">2018</h2>
+                  <p class="color5 p-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero laboriosam maiores eligendi hic quam, temporibus dolorem ipsa voluptates. Ut, reprehenderit.</p>
                 </div>
               </div>
             </div>
@@ -252,7 +253,7 @@
             <img src="images/devushka_skala_utes_146628_1920x1080 (convert.io).webp" alt="3 фото из портфолио" class="portfolio3">
           </div>
           <div class="portfolio2">
-            <img src="images/devushka_skejt_doroga_164840_1920x1080 (convert.io).webp" alt="4 фото из портфолио" class="portfolio3">
+            <img src="images/devushka_skejt_doroga_164840_1920x1080.webp" alt="4 фото из портфолио" class="portfolio3">
           </div>
           <div class="portfolio2">
             <img src="images/devushka_volosy_nastroenie_145370_1920x1080 (convert.io).webp" alt="5 фото из портфолио" class="portfolio3">
@@ -323,7 +324,7 @@
         <div class="row">
           <div class="col-md-4 col-sm-12">
             <div class="window_flexble">
-              <div class="between_window">
+              <div>
                 <h5 class="fw-bold text-center">Monthly</h5>
                 <p class="text-center color1">$129 / month</p>
                 <a href="#" class="btn btn-lg col-12">Button</a>
@@ -399,15 +400,15 @@
     </section>
 
     <footer>
-      <div class="container">
-        <div class="row align-items-center">
+      <div class="container-fluid">
+        <div class="row p-3 align-items-center">
           <div class="col-4">
-            <p class="color2 text-start">@ 2022 Contact</p>
+            <p class="color2 text-center mt-3">@ 2022 Contact</p>
           </div>
           <div class="col-4">
-            <h3 class="color1 text-center">Contact</h3>
+            <h3 class="color1 text-center mt-2">Contact</h3>
           </div>
-          <div class="col-4 text-end">
+          <div class="col-4 text-center">
             <a href="https://www.facebook.com/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#24b4e6" class="bi bi-facebook" viewBox="0 0 16 16">
               <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
             </svg></a>
@@ -421,7 +422,8 @@
         </div>
       </div>
     </footer>
-
+  
+  <script src="js/sharp.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
