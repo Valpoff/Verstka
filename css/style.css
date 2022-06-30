@@ -37,25 +37,12 @@ input {
     background-color: var(--color1);
 }
 
-.main_head {
-    padding: 10px 0px;
-}
-.btn-group {
-    padding: 10px 20px 10px 20px;
-}
-
 .btn-val {
     display: block;
     max-width: 600px;
     padding: 8px 30px;
     color: var(--color1);
     background-color: var(--color3);
-}
-
-.img-val {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 /* Наша история */
@@ -274,14 +261,11 @@ button {
 /* Our Team */
 
 .team {
-    background-color: #24b4e6;
-    padding: 20px;
+    background-color: var(--color1)
 }
 
 .our_team {
-    background-color: #fff;
-    padding: 40px;
-    margin-bottom: 20px;
+    background-color: var(--color3)
 }
 
 .white_list , .team_img {
