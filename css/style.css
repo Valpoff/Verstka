@@ -24,16 +24,6 @@ body {
     height: 100%;
 }
 
-.navbar-light {
-    background-color: var(--color4);
-    padding: 10px;
-}
-
-.navbar-collapse {
-    display: flex;
-    justify-content: center;
-}
-
 input {
     border: none;
 }
@@ -48,6 +38,56 @@ input {
     padding: 8px 30px;
     color: var(--color1);
     background-color: var(--color3);
+}
+
+.header1 .btn {
+    background-color: var(--color1);
+    color: var(--color3);
+    width: 200px;
+}
+
+.header .navbar-light {
+    background-color: var(--color4);
+    padding: 10px;
+    width: 100%;
+}
+
+.header2 .navbar-toggler ,
+.header3 .navbar-toggler , 
+.header5 .navbar-toggler ,
+.header8 .navbar-toggler{
+    border: none;
+}
+
+.header2 .navbar-light .nav-link ,
+.header3 .navbar-light .nav-link {
+    color: var(--color1);
+}
+
+.header2 .navbar-toggler:focus ,
+.header3 .navbar-toggler:focus {
+    color: var(--color1);
+}
+
+.header5 {
+    background-color: var(--color1);
+}
+
+.header5 .navbar-light .nav-link ,
+.header5 .navbar-toggler:focus  {
+    color: var(--color3);
+}
+
+.header7 {
+    background-color: var(--color5);
+}
+
+.header7 .navbar-light .nav-link {
+    color: var(--color3);
+}
+
+.header7 .navbar-toggler:focus {
+    color: var(--color3);
 }
 
 /* Наша история */
