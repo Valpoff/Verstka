@@ -2,7 +2,10 @@
 @font-face {
 	font-family: 'Conv_Poppins-Regular';
 	src: url('../fonts/Poppins-Regular.eot');
-	src: local('☺'), url('../fonts/Poppins-Regular.woff') format('woff'), url('../fonts/Poppins-Regular.ttf') format('truetype'), url('../fonts/Poppins-Regular.svg') format('svg');
+	src: local('☺'), 
+    url('../fonts/Poppins-Regular.woff') format('woff'), 
+    url('../fonts/Poppins-Regular.ttf') format('truetype'), 
+    url('../fonts/Poppins-Regular.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
     font-display: swap;
@@ -10,6 +13,7 @@
 
 body {
     font-family: 'Conv_Poppins-Regular';
+    font-family: 'Poppins', sans-serif;
 }
 :root {
     --color1: #24b4e6;
@@ -111,7 +115,7 @@ input {
     background-color: var(--color5);
 }
 
-button {
+.history button {
     border: none;
 }
 
@@ -183,7 +187,7 @@ button {
     padding: 24px 15px;
 }
 
-.block_text {
+.features .block_text {
     display: flex;
     max-width: 400px;
 }
@@ -340,4 +344,59 @@ button {
 }
 .color5 {
     color: var(--color5)
+}
+
+/* Новые слайды */
+
+.intro1 .btn {
+    background-color: var(--color1);
+    width: 200px;
+}
+
+.intro2 .btn {
+    border-color: var(--color3);
+    width: 200px;
+}
+
+.intro2 .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro2 {
+    background: url(../images/devushka_skejt_doroga_164840_1920x1080.webp) center;
+}
+
+.intro2 .text {
+    width: 70%;
+}
+
+.intro3 .btn {
+    background-color: var(--color1);
+}
+
+.intro3 input {
+    background-color: var(--color4);
+    border: none;
+}
+
+.intro3 button {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    max-width: 300px;
+}
+
+.intro4 .btn {
+    position: absolut;
+    top: 0;
+}
+
+.intro4 .carousel-caption {
+    top: 40%;
+}
+
+.intro4 .btn-val {
+
 }
