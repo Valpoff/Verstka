@@ -122,7 +122,15 @@ input {
 /* Прокрутка */
 
 .item {
-    margin: 2s0px;
+    padding-top: 20px;
+    min-width: 280px;
+    min-height: 280px;
+    max-width: 280px;
+    max-height: 280px;    
+    text-align: center;
+}
+
+.item_text {
     padding-top: 20px;
     min-width: 280px;
     min-height: 280px;
@@ -395,13 +403,37 @@ input {
 }
 
 .intro4 .carousel-caption {
-    top: 10%;
-    left: 10%;
-    right: 10%;
-    bottom: 10%;
+    top: 5%;
+    left: 5%;
+    right: 5%;
+    bottom: 5%;
     text-align: start;
 }
 
 .intro4 .text {
     max-width: 60%;
+}
+
+.intro4 .caps_text {
+    font-size: calc(10px + 70  * (100vw / 1880));
+}
+.intro4 .low_text{
+    font-size: calc(8px + 22 * (100vw / 1880));
+}
+.intro4 .btn {
+    font-size: 20px;
+    width: 200px;
+}
+
+@media (max-width: 768px) {
+    .intro4 .caps_text {
+        font-size: calc(10px + (70 + 70 * 0.7) * ((100vw - 320px) / 1840));
+    }
+    .intro4 .low_text{
+        font-size: calc(8px + (22 + 22 * 0.7) * ((100vw - 320px) / 3500));
+    }
+    .intro4 .btn {
+        font-size: calc(8px + (12 + 12 * 0.7) * ((100vw - 320px) / 1880));
+        width: calc(60px + (140 + 140 * 0.7) * ((100vw - 320px) / 1880));
+    }
 }
