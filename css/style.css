@@ -95,7 +95,7 @@ input {
 }
 
 /* Наша история */
-.history {
+.history , .history1 {
     background-color: var(--color1);
 }
 
@@ -402,16 +402,23 @@ input {
     position: absolute;
 }
 
+.intro4 .carousel-indicators {
+    position: relative;
+    margin-left: 10%;
+    top: 1%;
+    bottom: 1%;
+    left: auto;
+    justify-content: start;
+    width: 100px;
+    align-items: center;
+}
+
 .intro4 .carousel-caption {
     top: 5%;
     left: 5%;
     right: 5%;
     bottom: 5%;
     text-align: start;
-}
-
-.intro4 .text {
-    max-width: 60%;
 }
 
 .intro4 .caps_text {
@@ -425,15 +432,40 @@ input {
     width: 200px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 3840px) {
     .intro4 .caps_text {
-        font-size: calc(10px + (70 + 70 * 0.7) * ((100vw - 320px) / 1840));
+        font-size: calc(10px + (70 + 70 * 0.7) * ((100vw - 320px) / 1880));
     }
     .intro4 .low_text{
-        font-size: calc(8px + (22 + 22 * 0.7) * ((100vw - 320px) / 3500));
+        font-size: calc(8px + (22 + 22 * 0.7) * ((100vw - 320px) / 1880));
     }
     .intro4 .btn {
         font-size: calc(8px + (12 + 12 * 0.7) * ((100vw - 320px) / 1880));
         width: calc(60px + (140 + 140 * 0.7) * ((100vw - 320px) / 1880));
     }
+    .intro4 .carousel-indicators {
+        margin-left: calc(12% + (100 + 100 * 0.7) * ((100vw -320px) / 1880));
+        width: calc(20px + (80 + 80 * 0.7) * ((100vw -320px) / 1880))
+    }
+}
+
+.intro5 .media1 {
+    width: 600px;
+    height: 600px;
+}
+
+.intro5 .media2 {
+    max-width: 500px;
+    justify-content: center;
+}
+
+@media (max-width: 767px) {
+    .intro5 .media1 {
+        width: calc(160px + (440 + 440 * 0.7) * ((100vw - 320px)/ 1880));
+        height: calc(160px + (440 + 440 * 0.7) * ((100vw - 320px) / 1880));
+    }
+    .intro5 .media2 {
+        max-width: calc(160px + (340 + 340 * 0.7) * ((100vw - 320px) / 1880));
+    }
+    
 }
